@@ -101,3 +101,7 @@ h1 {
 .hidden {
   display: none;
 }
+
+.wrong-input {
+  color: rgba(255, 0, 0, 0.484);
+}

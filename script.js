@@ -21,7 +21,7 @@ controlsEl.addEventListener("click", (e) => {
       res = String(eval(exp));
     } catch (e) {
       console.log("error");
-      displayEl.innerHTML = '<span style="color: red;">Wrong Input</span>';
+      displayEl.innerHTML = '<span class="wrong-input">Wrong Input</span>';
       setTimeout(() => (displayEl.textContent = res), 1000);
       return;
     }
